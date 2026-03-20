@@ -1,0 +1,62 @@
+.cursor-main {
+  --size: 0px;
+  position: fixed;
+  top: calc(var(--size) / -2);
+  left: calc(var(--size) / -2);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50px;
+  pointer-events: none;
+  z-index: 99;
+  background-color: #d0d0d0;
+  box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.5);
+  mix-blend-mode: difference;
+  transition: top 0.3s ease-out, left 0.3s ease-out, width 0.3s ease-out,
+    height 0.3s ease-out;
+}
+
+.cursor-trail {
+  width: 10px;
+  height: 10px;
+  background-color: #d0d0d0;
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+/* Circle trail shape */
+.cursor-trail[data-shape="circle"] {
+  border-radius: 50%;
+  background-color: #d0d0d0;
+}
+
+/* Square trail shape */
+.cursor-trail[data-shape="square"] {
+  border-radius: 20%;
+  background-color: #c0c0c0;
+}
+
+/* Pointer/diamond trail shape */
+.cursor-trail[data-shape="pointer"] {
+  border-radius: 0%;
+  background-color: #b8b8b8;
+  transform: rotate(45deg) !important;
+}
+
+.cursor-icons {
+  top: 10px;
+  left: 10px;
+  height: calc(var(--cursorH) - 20px);
+  transition: all 0.5s ease-out, height 0.5s ease-in-out;
+}
+.cursor-disable {
+  --size: 0px;
+}
+@media only screen and (min-width: 600px) {
+  .cursor-main {
+    --size: 50px;
+  }
+  .cursor-disable {
+    --size: 0px;
+  }
+}
