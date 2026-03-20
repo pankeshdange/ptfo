@@ -123,9 +123,9 @@
     display: none;
   }
 
-  /* Show mobile photo */
+  /* Hide mobile photo */
   .mobile-photo {
-    display: block;
+    display: none;
     position: relative !important;
     width: 100%;
     max-width: 380px;
