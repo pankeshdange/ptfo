@@ -12,9 +12,10 @@
   transform: translateX(-50%);
   top: 0;
   z-index: 9999;
-  background: rgba(10, 14, 39, 0.3);
+  background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(200, 200, 200, 0.15);
+  border-bottom: 1px solid #D4AF37;
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.1);
 }
 .header ul {
   font-size: 13px;
@@ -30,7 +31,7 @@
 .header ul li {
   margin: 0;
   letter-spacing: 0.8px;
-  color: #ffffff;
+  color: #F9FAFB;
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
@@ -39,6 +40,7 @@
 .header ul li:hover {
   color: var(--accentColor);
 }
+
 .navbar-connect {
   position: absolute;
   display: none;
@@ -48,18 +50,18 @@
   font-size: 12px;
   letter-spacing: 0.5px;
   font-weight: 500;
-  color: #ffffff;
+  color: #F9FAFB;
   white-space: nowrap;
   transition: 0.3s;
 }
 .navbar-connect:hover {
-  color: var(--accentColor);
+  color: #D4AF37;
 }
 .navbar-title {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: #F9FAFB;
   white-space: nowrap;
 }
 @media only screen and (max-width: 768px) {

@@ -8,8 +8,8 @@
   border-radius: 50px;
   pointer-events: none;
   z-index: 99;
-  background-color: #d0d0d0;
-  box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.5);
+  background-color: #D4AF37;
+  box-shadow: 0px 0px 30px 0px rgba(212, 175, 55, 0.5);
   mix-blend-mode: difference;
   transition: top 0.3s ease-out, left 0.3s ease-out, width 0.3s ease-out,
     height 0.3s ease-out;
@@ -18,8 +18,8 @@
 .cursor-trail {
   width: 10px;
   height: 10px;
-  background-color: #d0d0d0;
-  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.4);
+  background-color: #D4AF37;
+  box-shadow: 0px 0px 20px 0px rgba(212, 175, 55, 0.4);
   pointer-events: none;
   border-radius: 50%;
 }
@@ -27,19 +27,19 @@
 /* Circle trail shape */
 .cursor-trail[data-shape="circle"] {
   border-radius: 50%;
-  background-color: #d0d0d0;
+  background-color: #D4AF37;
 }
 
 /* Square trail shape */
 .cursor-trail[data-shape="square"] {
   border-radius: 20%;
-  background-color: #c0c0c0;
+  background-color: #E8C758;
 }
 
 /* Pointer/diamond trail shape */
 .cursor-trail[data-shape="pointer"] {
   border-radius: 0%;
-  background-color: #b8b8b8;
+  background-color: #C9A227;
   transform: rotate(45deg) !important;
 }
 

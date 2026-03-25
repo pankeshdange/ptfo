@@ -8,7 +8,7 @@
   line-height: 1.5;
   scroll-behavior: smooth;
   color-scheme: light dark;
-  color: #e8f5ff;
+  color: #F9FAFB;
   background-color: var(--backgroundColor);
 
   font-synthesis: none;
@@ -18,7 +18,7 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  --accentColor: #00a8ff;
+  --accentColor: #D4AF37;
   --backgroundColor: #000000;
   --vh: 100vh;
   --vh: 100svh;
@@ -88,7 +88,7 @@ main {
 body {
   margin: 0;
   height: auto;
-  background: linear-gradient(135deg, #000000 0%, #0a0f2a 25%, #001a4d 50%, #000000 75%, #0a0f2a 100%);
+  background: linear-gradient(135deg, #000000 0%, #1F2937 25%, #000000 50%, #000000 75%, #1F2937 100%);
   background-attachment: fixed;
   flex-grow: 1;
   --cWidth: calc(100% - 30px);

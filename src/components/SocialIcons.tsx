@@ -3,6 +3,8 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaXTwitter,
+  FaMedium,
+  FaBlog,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
@@ -60,24 +62,34 @@ const SocialIcons = () => {
   return (
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
-        <span>
+        <span className="icon-github">
           <a href={config.contact.github} target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
         </span>
-        <span>
+        <span className="icon-linkedin">
           <a href={config.contact.linkedin} target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn />
           </a>
         </span>
-        <span>
+        <span className="icon-twitter">
           <a href={config.contact.twitter} target="_blank" rel="noopener noreferrer">
             <FaXTwitter />
           </a>
         </span>
-        <span>
+        <span className="icon-instagram">
           <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer">
             <FaInstagram />
+          </a>
+        </span>
+        <span className="icon-medium">
+          <a href="https://medium.com" target="_blank" rel="noopener noreferrer">
+            <FaMedium />
+          </a>
+        </span>
+        <span className="icon-blog">
+          <a href="https://blog.example.com" target="_blank" rel="noopener noreferrer">
+            <FaBlog />
           </a>
         </span>
       </div>

@@ -33,8 +33,10 @@
 }
 
 .cta-btn-play:hover {
-  background: rgba(255, 255, 255, 0.12);
-  box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
+  background: rgba(212, 175, 55, 0.1);
+  border-color: #D4AF37;
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.2);
+  color: #D4AF37;
   transform: translateY(-2px);
 }
 
@@ -45,7 +47,7 @@
 }
 
 .cta-btn-hire:hover {
-  box-shadow: 0 8px 30px rgba(200, 200, 200, 0.25);
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.25);
   transform: translateY(-2px);
 }
 

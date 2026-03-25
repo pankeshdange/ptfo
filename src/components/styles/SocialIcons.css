@@ -41,7 +41,66 @@
   display: flex;
   font-size: 23px;
   will-change: left, top;
-  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, color 0.3s ease;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GitHub - Black */
+.icon-github a {
+  color: #ffffff;
+}
+.icon-github a:hover {
+  color: #D4AF37;
+  transform: scale(1.2);
+}
+
+/* LinkedIn - Blue */
+.icon-linkedin a {
+  color: #0A66C2;
+}
+.icon-linkedin a:hover {
+  color: #D4AF37;
+  transform: scale(1.2);
+}
+
+/* Twitter - Black */
+.icon-twitter a {
+  color: #ffffff;
+}
+.icon-twitter a:hover {
+  color: #D4AF37;
+  transform: scale(1.2);
+}
+
+/* Instagram - Gradient Pink/Purple */
+.icon-instagram a {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.icon-instagram a:hover {
+  filter: brightness(1.3);
+  transform: scale(1.2);
+}
+
+/* Medium - Black */
+.icon-medium a {
+  color: #000000;
+}
+.icon-medium a:hover {
+  color: #D4AF37;
+  transform: scale(1.2);
+}
+
+/* Blog - Gold */
+.icon-blog a {
+  color: #D4AF37;
+}
+.icon-blog a:hover {
+  color: #F9FAFB;
+  transform: scale(1.2);
 }
 .resume-button {
   position: absolute;
@@ -77,7 +136,7 @@ div.resume-button span {
   top: 655px;
   left: 0;
   height: 1px;
-  background-color: #ffffff;
+  background-color: #1F2937;
   width: 100%;
   z-index: 99999;
 }
