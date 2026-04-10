@@ -1,4 +1,4 @@
-# My Portfolio Wesbite by @red1-for-hek - Overview 🚀
+# My Portfolio Wesbite by pankesh dange- Overview 🚀
 
 If you are copying this code or forking this repo, please give a credit of my name :(
 
